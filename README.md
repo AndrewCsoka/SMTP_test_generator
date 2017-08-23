@@ -10,13 +10,8 @@ You'll want to edit the values in the config file, and name it "SMTP_test_genera
 
 ```
 SMTP_SERVER_PORT=25
-SMTP_TEST_TO="yourself@example.com"
-SMTP_TEST_MSG="
-To: Your Self <yourself@example.com>
-From: Someone Else <someone.else@example.com>
-subject: test       #now double enter
-test email body
-."
+SMTP_TO_EMAIL="your.address@example.com"
+SMTP_TO_NAME="Your Name"
 ```
 
 ## Authors
